@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="t d">
+<title id="t">Failover</title><desc id="d">A small architecture diagram with one overloaded server and utilisation bars.</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5c518" stop-opacity="0.16"/><stop offset="1" stop-color="#f5c518" stop-opacity="0"/></linearGradient></defs>
+<rect x="0.5" y="0.5" width="899" height="249" rx="16" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="899" height="249" rx="16" fill="url(#g)"/>
+<text x="44" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#f5c518">LEARN SYSTEM DESIGN</text>
+<text x="44" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#e6edf3">Failover</text>
+<text x="44" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#9da7b3">Design a system, push load through it,</text>
+<text x="44" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#9da7b3">and watch it break. Then fix it.</text>
+<rect x="44" y="192" width="96" height="26" rx="13" fill="#f5c518" fill-opacity="0.12" stroke="#f5c518" stroke-opacity="0.45"/>
+<text x="92" y="209" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f5c518">Next.js 15</text>
+<rect x="148" y="192" width="96" height="26" rx="13" fill="#f5c518" fill-opacity="0.12" stroke="#f5c518" stroke-opacity="0.45"/>
+<text x="196" y="209" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f5c518">TypeScript</text>
+<rect x="252" y="192" width="89" height="26" rx="13" fill="#f5c518" fill-opacity="0.12" stroke="#f5c518" stroke-opacity="0.45"/>
+<text x="296" y="209" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f5c518">Simulator</text>
+<rect x="349" y="192" width="96" height="26" rx="13" fill="#f5c518" fill-opacity="0.12" stroke="#f5c518" stroke-opacity="0.45"/>
+<text x="397" y="209" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f5c518">38 modules</text>
+<rect x="453" y="192" width="74" height="26" rx="13" fill="#f5c518" fill-opacity="0.12" stroke="#f5c518" stroke-opacity="0.45"/>
+<text x="490" y="209" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#f5c518">64 labs</text>
+<g transform="translate(560,28)">
+<rect width="300" height="194" rx="12" fill="#12100a" stroke="#30363d"/>
+<g stroke="#9da7b3" stroke-opacity="0.7" stroke-width="1.4" fill="none">
+<path d="M64 60 H92"/><path d="M158 60 H180"/><path d="M158 60 C168 60 168 38 180 38"/><path d="M158 60 C168 60 168 82 180 82"/>
+<path d="M236 38 C250 38 250 60 262 60"/><path d="M236 82 C250 82 250 60 262 60"/></g>
+<rect x="14" y="43" width="50" height="34" rx="8" fill="#0d1117" stroke="#9da7b3" /><text x="39.0" y="64" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#e6edf3">client</text><rect x="92" y="43" width="66" height="34" rx="8" fill="#0d1117" stroke="#9da7b3" /><text x="125.0" y="64" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#e6edf3">lb</text><rect x="180" y="21" width="56" height="34" rx="8" fill="#0d1117" stroke="#3fb950" /><text x="208.0" y="42" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#e6edf3">api-1</text><rect x="180" y="65" width="56" height="34" rx="8" fill="#0d1117" stroke="#f85149" /><text x="208.0" y="86" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#e6edf3">api-2</text><rect x="262" y="43" width="28" height="34" rx="8" fill="#0d1117" stroke="#9da7b3" /><text x="276.0" y="64" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#e6edf3">db</text>
+<rect x="14" y="116" width="272" height="8" rx="4" fill="#21262d"/><rect x="14" y="116" width="190" height="8" rx="4" fill="#3fb950"/>
+<text x="14" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#9da7b3">api-1 · 62% busy</text>
+<rect x="14" y="152" width="272" height="8" rx="4" fill="#21262d"/><rect x="14" y="152" width="272" height="8" rx="4" fill="#f85149"/>
+<text x="14" y="180" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f85149">api-2 · over capacity</text>
+<text x="286" y="180" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#f5c518">fix it →</text>
+</g>
+</svg>
