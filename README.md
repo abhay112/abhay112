@@ -1,10 +1,21 @@
 <div align="center">
-  <img src="assets/banner.svg" alt="Abhay: full-stack and DevOps engineer. Products: Kenora, LibraryLogix, Failover." width="100%">
+<img src="assets/banner.svg" alt="Abhay: full-stack and DevOps engineer. Products: Kenora, LibraryLogix, Failover." width="100%">
+
+<br/>
+
+[![Profile views](https://komarev.com/ghpvc/?username=abhay112&color=6366f1&style=flat-square&label=profile+views)](https://github.com/abhay112)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhay-kumar-verma-a27a17240/)
+&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/abhay112?style=flat-square&color=6366f1&label=followers)](https://github.com/abhay112?tab=followers)
+
 </div>
 
 <br>
 
 I design, build and run software end to end: React front ends, TypeScript, Go and Node back ends, the data underneath, and the infrastructure and monitoring it all runs on. These are the products I'm running.
+
+---
 
 ## Products
 
@@ -24,12 +35,12 @@ I design, build and run software end to end: React front ends, TypeScript, Go an
 
 ```mermaid
 flowchart LR
-  Web["React app<br/>MapLibre + React Flow"] --> API["Go API"]
-  Web --> Tiles["Go tile service"]
-  API --> Engine["Workflow engine<br/>Node + DuckDB"]
-  API --> DB[("PostgreSQL<br/>+ PostGIS")]
-  Tiles --> DB
-  Engine --> DB
+Web["React app<br/>MapLibre + React Flow"] --> API["Go API"]
+Web --> Tiles["Go tile service"]
+API --> Engine["Workflow engine<br/>Node + DuckDB"]
+API --> DB[("PostgreSQL<br/>+ PostGIS")]
+Tiles --> DB
+Engine --> DB
 ```
 
 </details>
@@ -52,11 +63,11 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-  Designer["Seat designer"] --> Admin["Admin app"]
-  Admin --> API["NestJS + Fastify API"]
-  Student["Student portal"] --> API
-  API --> Mongo[("MongoDB")]
-  API -. metrics and logs .-> Obs["Prometheus · Grafana · Loki"]
+Designer["Seat designer"] --> Admin["Admin app"]
+Admin --> API["NestJS + Fastify API"]
+Student["Student portal"] --> API
+API --> Mongo[("MongoDB")]
+API -. metrics and logs .-> Obs["Prometheus · Grafana · Loki"]
 ```
 
 </details>
@@ -77,6 +88,8 @@ flowchart LR
 
 <br>
 
+---
+
 ## More I've built
 
 | Project | What it is |
@@ -86,6 +99,8 @@ flowchart LR
 | [**React Performance Demos**](https://github.com/abhay112/performanceTechniques) · [demo](https://performance-techniques.vercel.app) | Seven interactive demos of real React performance problems: how to spot each one, measure it and fix it. |
 | [**Centralized Monitoring Stack**](https://github.com/abhay112/centralizedMonitoring) | A Dockerized Prometheus, Loki and Grafana stack that watches several PM2 and Docker services from one place. |
 | [**MERN on Kubernetes**](https://github.com/abhay112/mern-docker) | A full-stack CRUD app (Next.js, Express, MongoDB) packaged with Docker and run on Kubernetes. |
+
+---
 
 ## Toolbox
 
@@ -105,3 +120,13 @@ flowchart LR
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux_VPS-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+---
+
+<div align="center">
+
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=abhay112&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&rank_icon=github)](https://github.com/abhay112)
+&nbsp;&nbsp;
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhay112&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&text_color=c9d1d9&langs_count=8)](https://github.com/abhay112)
+
+</div>
