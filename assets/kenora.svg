@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-labelledby="t d">
-<title id="t">Kenora</title><desc id="d">A map with contour lines, data points and two small dashboard cards.</desc>
+<title id="t">ValueDefine</title><desc id="d">A map with contour lines, data points and two small dashboard cards.</desc>
 <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#17c3b2" stop-opacity="0.16"/><stop offset="1" stop-color="#17c3b2" stop-opacity="0"/></linearGradient></defs>
 <rect x="0.5" y="0.5" width="899" height="249" rx="16" fill="#0d1117" stroke="#30363d"/>
 <rect x="0.5" y="0.5" width="899" height="249" rx="16" fill="url(#g)"/>
 <text x="44" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#17c3b2">GEOSPATIAL ANALYTICS</text>
-<text x="44" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#e6edf3">Kenora</text>
+<text x="44" y="108" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#e6edf3">ValueDefine</text>
 <text x="44" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#9da7b3">Bring in location data, shape it with visual workflows,</text>
 <text x="44" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#9da7b3">and share interactive maps.</text>
 <rect x="44" y="192" width="81" height="26" rx="13" fill="#17c3b2" fill-opacity="0.12" stroke="#17c3b2" stroke-opacity="0.45"/>
