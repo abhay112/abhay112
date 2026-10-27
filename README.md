@@ -19,16 +19,16 @@ I design, build and run software end to end: React front ends, TypeScript, Go an
 
 ## Products
 
-<a href="https://kenora.vikalpshorthand.com/login"><img src="assets/kenora.svg" alt="Kenora: geospatial analytics" width="100%"></a>
+<a href="https://valuedefine.com/login"><img src="assets/kenora.svg" alt="Valuedefine: geospatial analytics" width="100%"></a>
 
-**Kenora** is a geospatial analytics platform. Bring your data in, shape it with visual workflows, build interactive maps with widgets, and share them by link.
+**ValueDefine** is a geospatial analytics platform. Bring your data in, shape it with visual workflows, build interactive maps with widgets, and share them by link.
 
 - **Visual workflows.** A node editor on top of a DuckDB workflow engine turns raw datasets into map-ready layers.
 - **Interactive maps.** Vector tiles, widgets and shareable links.
 - **Market Insights.** Describe your datasets, pick levels and measures, and get KPI cards, rankings, trends and tiles.
 - **Built with** React 19, TypeScript, Vite, MapLibre GL, React Flow and TanStack Query on the front; a Go API and tile service plus a Node/TypeScript workflow engine behind it; PostgreSQL with PostGIS for data.
 
-**[Open Kenora](https://kenora.vikalpshorthand.com/login)** (sign-in required)
+**[Open ValueDefine](https://valuedefine.com/login)** (sign-in required)
 
 <details>
 <summary>How it fits together</summary>
